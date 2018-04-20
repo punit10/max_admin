@@ -1,0 +1,69 @@
+{
+    "outlets": [{
+        "id": "101",
+        "batid": "201",
+        "storename": "abc",
+        "points": "20",
+        "last_accessed": "02 Jan 2018",
+        "performance": [{
+            "target": "4000",
+            "status": "On target"
+        }],
+        "assigned": "Barton"
+    }, {
+        "id": "102",
+        "batid": "202",
+        "storename": "bbb",
+        "points": "22",
+        "last_accessed": "02 Feb 2018",
+        "performance": [{
+            "target": "5000",
+            "status": "Final"
+        }],
+        "assigned": "Cook"
+    }, {
+        "id": "103",
+        "batid": "203",
+        "storename": "bbb",
+        "points": "18",
+        "last_accessed": "01 Feb 2018",
+        "performance": [{
+            "target": "5000",
+            "status": "Final"
+        }],
+        "assigned": "Cook"
+    }, {
+        "id": "103",
+        "batid": "203",
+        "storename": "ccc",
+        "points": "23",
+        "last_accessed": "03 Dec 2013",
+        "performance": [{
+            "target": "6000",
+            "status": "Pending"
+        }],
+        "assigned": "Gayle"
+    }, {
+        "id": "104",
+        "batid": "204",
+        "storename": "bbb",
+        "points": "12",
+        "last_accessed": "01 Feb 2018",
+        "performance": [{
+            "target": "5000",
+            "status": "On target"
+        }],
+        "assigned": "Finch"
+    }, {
+        "id": "101",
+        "batid": "202",
+        "storename": "bbb",
+        "points": "22",
+        "last_accessed": "01 Feb 2018",
+        "performance": [{
+            "target": "7000",
+            "status": "pending"
+        }],
+        "assigned": "Russel"
+    }]
+}
