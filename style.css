@@ -41,30 +41,54 @@ a:focus {
 }
 
 .menubar-button {
-    margin-left: -50px;
+    margin-left: -20px;
+    margin-top: -10px;
 }
 
-.main{
+.main {
     background-color: #FFF;
+    margin-top: -10px;
+    margin-left: 30px;
 }
-table tr td{
+
+table tr td {
+    vertical-align: middle !important;
+}
+
+thead tr td {
+    padding-bottom: 20px !important;
+}
+
+table tr td {
     font-family: 'Poppins', sans-serif;
     font-size: 14px;
 }
-.link-color-adjust{
-    color: #4d88ff; 
+
+.link-color-adjust {
+    color: #4d88ff;
+    text-align: center;
 }
-.main h3{
+
+.bottom-color {
+    border-bottom: 2px solid #4d88ff;
+}
+
+.status_adjust {
+    font-size: 12px;
+}
+
+.main h3 {
     margin-bottom: 40px;
     margin-left: -10px;
 }
+
 
 /* ---------------------------------------------------
     SIDEBAR STYLE
 ----------------------------------------------------- */
 
 #sidebar {
-    width: 300px;
+    width: 270px;
     position: fixed;
     top: 0;
     left: 0;
@@ -76,13 +100,17 @@ table tr td{
 }
 
 #sidebar.active {
-    margin-left: -300px;
+    margin-left: -260px;
 }
 
 #sidebar .sidebar-header {
     padding: 20px 40px;
     color: #999;
     background: #fafafa;
+}
+
+.components {
+    margin-top: 30px;
 }
 
 #sidebar ul p {
@@ -151,7 +179,7 @@ ul.CTAs a {
 
 #content {
     width: calc(100% - 300px);
-    padding: 40px;
+    padding: 0px 20px;
     min-height: 100vh;
     transition: all 0.3s;
     position: absolute;
@@ -168,9 +196,9 @@ ul.CTAs a {
     MEDIAQUERIES
 ----------------------------------------------------- */
 
-@media (max-width: 768px) {
+@media (max-width: 200px) {
     #sidebar {
-        margin-left: -250px;
+        margin-left: -100px;
     }
     #sidebar.active {
         margin-left: 0;
@@ -179,9 +207,11 @@ ul.CTAs a {
         width: 100%;
     }
     #content.active {
-        width: calc(100% - 250px);
+        width: calc(100% - 210px);
     }
     #sidebarCollapse span {
         display: none;
     }
 }
+
+-
